@@ -42,7 +42,7 @@ class ButtonFrame extends React.Component {
   };
   clickHandle(e) {
       console.log(e.target.value,this.mathchallenge)
-     if(this.state.mathchallenge==0){
+     if(this.state.mathchallenge=='0'){
       this.setState({ 
         mathchallenge: e.target.value
    })}else{
